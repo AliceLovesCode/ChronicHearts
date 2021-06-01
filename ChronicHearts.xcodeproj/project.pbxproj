@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002D13D72665D55F00394483 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002D13D62665D55F00394483 /* Tests_iOS.swift */; };
+		002D13E22665D55F00394483 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002D13E12665D55F00394483 /* Tests_macOS.swift */; };
+		002D13E42665D55F00394483 /* ChronicHeartsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002D13BB2665D55F00394483 /* ChronicHeartsApp.swift */; };
+		002D13E52665D55F00394483 /* ChronicHeartsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002D13BB2665D55F00394483 /* ChronicHeartsApp.swift */; };
+		002D13E62665D55F00394483 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002D13BC2665D55F00394483 /* ContentView.swift */; };
+		002D13E72665D55F00394483 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002D13BC2665D55F00394483 /* ContentView.swift */; };
+		002D13E82665D55F00394483 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 002D13BD2665D55F00394483 /* Assets.xcassets */; };
+		002D13E92665D55F00394483 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 002D13BD2665D55F00394483 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		002D13D32665D55F00394483 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 002D13B62665D55F00394483 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 002D13C12665D55F00394483;
+			remoteInfo = "ChronicHearts (iOS)";
+		};
+		002D13DE2665D55F00394483 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 002D13B62665D55F00394483 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 002D13C92665D55F00394483;
+			remoteInfo = "ChronicHearts (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002D13BB2665D55F00394483 /* ChronicHeartsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChronicHeartsApp.swift; sourceTree = "<group>"; };
+		002D13BC2665D55F00394483 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		002D13BD2665D55F00394483 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		002D13C22665D55F00394483 /* ChronicHearts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChronicHearts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		002D13C52665D55F00394483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		002D13CA2665D55F00394483 /* ChronicHearts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChronicHearts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		002D13CC2665D55F00394483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		002D13CD2665D55F00394483 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		002D13D22665D55F00394483 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		002D13D62665D55F00394483 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		002D13D82665D55F00394483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		002D13DD2665D55F00394483 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		002D13E12665D55F00394483 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		002D13E32665D55F00394483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		002D13BF2665D55F00394483 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002D13C72665D55F00394483 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002D13CF2665D55F00394483 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002D13DA2665D55F00394483 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		002D13B52665D55F00394483 = {
+			isa = PBXGroup;
+			children = (
+				002D13BA2665D55F00394483 /* Shared */,
+				002D13C42665D55F00394483 /* iOS */,
+				002D13CB2665D55F00394483 /* macOS */,
+				002D13D52665D55F00394483 /* Tests iOS */,
+				002D13E02665D55F00394483 /* Tests macOS */,
+				002D13C32665D55F00394483 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		002D13BA2665D55F00394483 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				002D13BB2665D55F00394483 /* ChronicHeartsApp.swift */,
+				002D13BC2665D55F00394483 /* ContentView.swift */,
+				002D13BD2665D55F00394483 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		002D13C32665D55F00394483 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				002D13C22665D55F00394483 /* ChronicHearts.app */,
+				002D13CA2665D55F00394483 /* ChronicHearts.app */,
+				002D13D22665D55F00394483 /* Tests iOS.xctest */,
+				002D13DD2665D55F00394483 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		002D13C42665D55F00394483 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				002D13C52665D55F00394483 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		002D13CB2665D55F00394483 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				002D13CC2665D55F00394483 /* Info.plist */,
+				002D13CD2665D55F00394483 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		002D13D52665D55F00394483 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				002D13D62665D55F00394483 /* Tests_iOS.swift */,
+				002D13D82665D55F00394483 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		002D13E02665D55F00394483 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				002D13E12665D55F00394483 /* Tests_macOS.swift */,
+				002D13E32665D55F00394483 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		002D13C12665D55F00394483 /* ChronicHearts (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 002D13EC2665D55F00394483 /* Build configuration list for PBXNativeTarget "ChronicHearts (iOS)" */;
+			buildPhases = (
+				002D13BE2665D55F00394483 /* Sources */,
+				002D13BF2665D55F00394483 /* Frameworks */,
+				002D13C02665D55F00394483 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ChronicHearts (iOS)";
+			productName = "ChronicHearts (iOS)";
+			productReference = 002D13C22665D55F00394483 /* ChronicHearts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		002D13C92665D55F00394483 /* ChronicHearts (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 002D13EF2665D55F00394483 /* Build configuration list for PBXNativeTarget "ChronicHearts (macOS)" */;
+			buildPhases = (
+				002D13C62665D55F00394483 /* Sources */,
+				002D13C72665D55F00394483 /* Frameworks */,
+				002D13C82665D55F00394483 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ChronicHearts (macOS)";
+			productName = "ChronicHearts (macOS)";
+			productReference = 002D13CA2665D55F00394483 /* ChronicHearts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		002D13D12665D55F00394483 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 002D13F22665D55F00394483 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				002D13CE2665D55F00394483 /* Sources */,
+				002D13CF2665D55F00394483 /* Frameworks */,
+				002D13D02665D55F00394483 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				002D13D42665D55F00394483 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 002D13D22665D55F00394483 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		002D13DC2665D55F00394483 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 002D13F52665D55F00394483 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				002D13D92665D55F00394483 /* Sources */,
+				002D13DA2665D55F00394483 /* Frameworks */,
+				002D13DB2665D55F00394483 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				002D13DF2665D55F00394483 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 002D13DD2665D55F00394483 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		002D13B62665D55F00394483 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					002D13C12665D55F00394483 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					002D13C92665D55F00394483 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					002D13D12665D55F00394483 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 002D13C12665D55F00394483;
+					};
+					002D13DC2665D55F00394483 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 002D13C92665D55F00394483;
+					};
+				};
+			};
+			buildConfigurationList = 002D13B92665D55F00394483 /* Build configuration list for PBXProject "ChronicHearts" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 002D13B52665D55F00394483;
+			productRefGroup = 002D13C32665D55F00394483 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				002D13C12665D55F00394483 /* ChronicHearts (iOS) */,
+				002D13C92665D55F00394483 /* ChronicHearts (macOS) */,
+				002D13D12665D55F00394483 /* Tests iOS */,
+				002D13DC2665D55F00394483 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		002D13C02665D55F00394483 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002D13E82665D55F00394483 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002D13C82665D55F00394483 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002D13E92665D55F00394483 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002D13D02665D55F00394483 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002D13DB2665D55F00394483 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		002D13BE2665D55F00394483 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002D13E62665D55F00394483 /* ContentView.swift in Sources */,
+				002D13E42665D55F00394483 /* ChronicHeartsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002D13C62665D55F00394483 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002D13E72665D55F00394483 /* ContentView.swift in Sources */,
+				002D13E52665D55F00394483 /* ChronicHeartsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002D13CE2665D55F00394483 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002D13D72665D55F00394483 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002D13D92665D55F00394483 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002D13E22665D55F00394483 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		002D13D42665D55F00394483 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 002D13C12665D55F00394483 /* ChronicHearts (iOS) */;
+			targetProxy = 002D13D32665D55F00394483 /* PBXContainerItemProxy */;
+		};
+		002D13DF2665D55F00394483 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 002D13C92665D55F00394483 /* ChronicHearts (macOS) */;
+			targetProxy = 002D13DE2665D55F00394483 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		002D13EA2665D55F00394483 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		002D13EB2665D55F00394483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		002D13ED2665D55F00394483 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K295J35MYH;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aliceisabelle.ChronicHearts;
+				PRODUCT_NAME = ChronicHearts;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		002D13EE2665D55F00394483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K295J35MYH;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aliceisabelle.ChronicHearts;
+				PRODUCT_NAME = ChronicHearts;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		002D13F02665D55F00394483 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K295J35MYH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aliceisabelle.ChronicHearts;
+				PRODUCT_NAME = ChronicHearts;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		002D13F12665D55F00394483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K295J35MYH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aliceisabelle.ChronicHearts;
+				PRODUCT_NAME = ChronicHearts;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		002D13F32665D55F00394483 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K295J35MYH;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aliceisabelle.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ChronicHearts (iOS)";
+			};
+			name = Debug;
+		};
+		002D13F42665D55F00394483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K295J35MYH;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aliceisabelle.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ChronicHearts (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		002D13F62665D55F00394483 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K295J35MYH;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aliceisabelle.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ChronicHearts (macOS)";
+			};
+			name = Debug;
+		};
+		002D13F72665D55F00394483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K295J35MYH;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aliceisabelle.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ChronicHearts (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		002D13B92665D55F00394483 /* Build configuration list for PBXProject "ChronicHearts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002D13EA2665D55F00394483 /* Debug */,
+				002D13EB2665D55F00394483 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		002D13EC2665D55F00394483 /* Build configuration list for PBXNativeTarget "ChronicHearts (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002D13ED2665D55F00394483 /* Debug */,
+				002D13EE2665D55F00394483 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		002D13EF2665D55F00394483 /* Build configuration list for PBXNativeTarget "ChronicHearts (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002D13F02665D55F00394483 /* Debug */,
+				002D13F12665D55F00394483 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		002D13F22665D55F00394483 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002D13F32665D55F00394483 /* Debug */,
+				002D13F42665D55F00394483 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		002D13F52665D55F00394483 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002D13F62665D55F00394483 /* Debug */,
+				002D13F72665D55F00394483 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 002D13B62665D55F00394483 /* Project object */;
+}
